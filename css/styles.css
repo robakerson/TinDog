@@ -10,8 +10,13 @@ h1{
   font-weight:900;
 }
 
+/*
 .goolgefonts{
   font-family: 'Ubuntu', sans-serif;
   font-family: 'Montserrat', sans-serif;
+}
+*/
 
+.container-fluid{
+ padding:3% 15%;  
 }
