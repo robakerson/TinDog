@@ -96,10 +96,13 @@ p{
 /* Testimonial section */
 
 #testimonials{
-  padding: 7% 15%;
   text-align:center;
   background-color:#ef8172;
   color:#FFF;
+}
+
+.carousel-item{
+    padding: 7% 15%;
 }
 
 .testimonial-img{
