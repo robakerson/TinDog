@@ -5,6 +5,7 @@ body {
 #title {
   background-color: #ff4c68;
   color: white;
+
 }
 
 h1 {
@@ -38,7 +39,7 @@ p{
 }
 */
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 10%;
 }
 
 /* Navagation Bar */
@@ -71,11 +72,16 @@ p{
 .img-title {
   width: 60%;
   transform: rotate(25deg);
+  position:absolute;
+  right:25%;
 }
 
 /* Features Section */
 #features {
   padding: 7% 15%;
+  background-color:#fff;
+  position:relative;
+  /* bottom:200px; */
 }
 
 .feat-icon {
@@ -120,6 +126,17 @@ p{
 .press-logo{
   width:13%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding:100px;
+  text-align:center;
+}
+
+.pricing-col {
+padding:3% 2%;
 }
 
 /* .text-ctr{
