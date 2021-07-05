@@ -5,7 +5,6 @@ body {
 #title {
   background-color: #ff4c68;
   color: white;
-
 }
 
 h1 {
@@ -15,11 +14,11 @@ h1 {
   font-weight: 900;
 }
 
-h2{
+h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 3rem;
-  line-height:1.5;
+  line-height: 1.5;
 }
 
 h3 {
@@ -28,7 +27,7 @@ h3 {
   font-size: 1.5rem;
 }
 
-p{
+p {
   color: #8f8f8f;
 }
 
@@ -72,15 +71,15 @@ p{
 .img-title {
   width: 60%;
   transform: rotate(25deg);
-  position:absolute;
-  right:25%;
+  position: absolute;
+  right: 25%;
 }
 
 /* Features Section */
 #features {
   padding: 7% 15%;
-  background-color:#fff;
-  position:relative;
+  background-color: #fff;
+  position: relative;
   /* bottom:200px; */
 }
 
@@ -100,44 +99,81 @@ p{
 }
 
 /* Testimonial section */
-
-#testimonials{
-  text-align:center;
-  background-color:#ef8172;
-  color:#FFF;
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #FFF;
 }
 
-.carousel-item{
-    padding: 7% 15%;
+.carousel-item {
+  padding: 7% 15%;
 }
 
-.testimonial-img{
-  width:10%;
-  border-radius:100%;
-  margin:20px;
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
 
-#press{
-    background-color:#ef8172;
-    text-align:center;
-    padding-bottom:3%;
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
 }
 
-.press-logo{
-  width:13%;
+.press-logo {
+  width: 13%;
   margin: 20px 20px 50px;
 }
 
 /* Pricing Section */
-
-#pricing{
-  padding:100px;
-  text-align:center;
+#pricing {
+  padding: 100px;
+  text-align: center;
 }
 
 .pricing-col {
-padding:3% 2%;
+  padding: 3% 2%;
 }
+
+/* Call to Action section */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+.cta-text {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  /* padding: 150px 0 50px 0; */
+}
+
+/* Footer section */
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.ftr-fab {
+  margin: 0 15px 30px 15px;
+}
+
+
+/* Fix layout issues with smaller viewport */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .img-title {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
 
 /* .text-ctr{
   text-align:center;
